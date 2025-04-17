@@ -1,0 +1,69 @@
+.main-cards-1{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.barraLaranja{
+    margin-left: 24px;
+    background-color: chocolate;
+    width: 50px;
+    height: 2px;
+}
+.cards-1{ 
+    width: 320px;
+    height: 296px;
+    box-shadow: 2px 4px 24px rgba(171, 190, 209, 0.4);
+}
+
+.cards-1:hover{
+    box-shadow: 8px 12px 24px rgba(171, 190, 209, 0.2);
+    transform: translateY(-8px);
+}
+
+.cards-1 h2{
+    padding: 0 25px;
+    font-size: 24px;
+}
+.cards-1 p{
+    width: 200px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+
+.cards-1 img{
+    padding: 25px 30px;
+    width: 72px;
+    height: 72px;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.Happy-Positions{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Happy-Text{
+    width: 238px;
+    height: 104px;
+}
+
+
+.Happy-Text h3{
+    text-align: center;
+    width: 141px;
+    font-size: 58px;
+    color: #96BB7C;
+    margin-bottom: -10px;
+}
+.Happy-Text p{
+    font-size: 16px; 
+}
+ 
