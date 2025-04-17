@@ -1,5 +1,6 @@
 @import url(./global.css);
 
+/* ----------------Section Review---------------- */
 .review{
     display: flex;
     flex-direction: column;
@@ -91,3 +92,5 @@
     letter-spacing: 0.2px;
     color: var(--second-text-color);
 }
+
+/* ----------------Section Team---------------- */
