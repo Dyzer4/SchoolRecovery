@@ -6,6 +6,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 1440px;
 }
 
 footer nav {
@@ -50,12 +51,18 @@ footer a {
 }
 
 .copyright {
-    padding: 25px 0px;
+    background-color: var(--light-text-gray-1);
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+.copyright-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1050px;
-    background-color: var(--light-text-gray-1);
 }
 
 .copyright p {
