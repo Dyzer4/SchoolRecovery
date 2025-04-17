@@ -1,1 +1,74 @@
 @import url(./global.css);
+
+footer {
+    background-color: var(--light-background-color);
+    padding: 0px 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav {
+    width: 1050px;
+    display: flex;
+    gap: 30px;
+    margin: 50px 0px;
+    justify-content: space-between;
+}
+
+.footer-nav-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-nav-itens h2 {
+    font-size: 16px;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+
+.footer-nav-itens ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.footer-nav-itens:nth-of-type(5) ul {
+    width: 305px;
+}
+
+footer a {
+    color: var(--second-text-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.copyright {
+    padding: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1050px;
+    background-color: var(--light-text-gray-1);
+}
+
+.copyright p {
+    color: var(--second-text-color);
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.social-icons {
+    width: 236px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

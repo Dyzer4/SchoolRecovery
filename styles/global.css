@@ -3,7 +3,8 @@
     margin: 0px;
     border: 0px;
     text-decoration: none;
-    list-style: none;    
+    list-style: none;   
+    font-family: var(--font); 
 }
 
 :root{
