@@ -1,12 +1,84 @@
 @import url(./global.css);
 
-footer {
-    background-color: var(--light-background-color);
-    padding: 0px 195px;
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    border: 1px solid;
+    padding: 100px 195px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1440px;
+    gap: 80px;
+}
+
+.newsletter-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 691px;
+    align-items: center;
+}
+
+.newsletter-titles p {
+    color: var(--second-text-color);
+    font-size: 14px;
+    width: 463px;
+}
+
+.newsletter-titles p:first-of-type {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.newsletter-titles h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.newsletter-input {
+    width: 688px;
+    height: 58px;
+    display: flex;
+}
+
+.newsletter-input input {
+    width: 571px;
+    padding: 15px 20px;
+    background-color: #f9f9f9;
+}
+
+.newsletter-input input::placeholder {
+    padding: 15px 20px;
+    font-size: 14px;
+    color: var(--second-text-color);
+}
+
+.newsletter-input button {
+    padding: 15px 22.5px;
+    font-size: 14px;
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border-radius: 0px 5px 5px 0;
+    width: 117px;
+    height: 58px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--light-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 footer nav {
