@@ -94,3 +94,97 @@
 }
 
 /* ----------------Section Team---------------- */
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+    padding: 100px 195px;
+    background-color: var(--light-background-color);
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 195px;
+    background-color: var(--light-background-color);
+}
+
+.team-informations{
+    display: flex;
+    flex-direction: column;
+    width: 1044px;
+    box-sizing: border-box;
+    gap:10px;
+}
+
+.team-informations h3{    
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.team-informations h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--text-color);
+}
+
+.team-informations-text{
+    width: 463px;
+}
+
+.team-informations-text p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+}
+
+.team-cards{
+    display: flex;
+    gap: 30px;
+}
+
+.team-cards-infos{
+    width: 238px;
+    box-sizing: border-box;
+    box-shadow: 0 13 19 rgba(0, 0, 0, 0.07); /* verificar */
+}
+
+.team-cards-infos img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.team-cards-infos-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.team-cards-infos-personal h3{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.team-cards-infos-personal p{
+    color: var(--second-text-color);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+.team-cards-infos-personal-icons{
+    display: flex;
+    gap: 20px;
+}
