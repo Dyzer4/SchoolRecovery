@@ -3,12 +3,126 @@
 body {
     width: 1440px;
     margin: 0 auto;
+    border: 1px solid;
+}
+
+/* TEACHERS */
+
+.Teachers {
+    background-color: var(--faded-secondary-color-2);
+    padding: 160px 195px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.teachers-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teachers-titles p {
+    font-size: 14px;
+    color: var(--second-text-color);
+}
+
+.teachers-titles p:first-of-type {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.teachers-titles h2 {
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.teacher-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.teacher-card-container {
+    background-color: var(--light-background-color);
+}
+
+.teacher-card-content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.teacher-p-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teacher-card-content p {
+    color: var(--second-text-color);
+}
+
+.teacher-p-card p {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.teacher-p-card p:nth-of-type(2) {
+    color: var(--light-text-color);
+    background-color: var(--dark-background-color) ;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.teacher-card-content h3 {
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.sales {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sales p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.teacher-card-content span {
+    color: var(--secondary-color-1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.teacher-card-content span:first-of-type{
+    color: var(--muted-color);
+    margin-right: 5px;
+}
+
+.teacher-card-content button {
+    border-radius: 37px;
+    padding: 10px 20px;
+    align-self: flex-start;
+    color: var(--primary-text-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* NEWSLETTER */
 
 .newsletter {
-    border: 1px solid;
     padding: 100px 195px;
     text-align: center;
     display: flex;
