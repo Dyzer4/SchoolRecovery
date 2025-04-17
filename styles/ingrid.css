@@ -4,8 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
-    padding: 160px 195px;
+    gap: 50px;
+    padding: 100px 195px;
+    background-color: var(--light-background-color);
 }
 
 .review-informations{
@@ -43,5 +44,50 @@
 .cards{
     display: flex;
     width: 1045px;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
     padding: 25px 15px;
+    align-items: center;
+    background-color: var(--light-background-color);
+}
+
+.cards-review{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    width: 298px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.cards-review p{
+    width: 159px;
+    font-size: 14px;
+    color: var(--second-text-color);
+    text-align: center;
+}
+
+.cards-person{
+    display: flex;
+    align-items: center;
+    gap: 15PX;
+}
+
+.cards-person-infos h3{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.cards-person-infos p{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
 }
