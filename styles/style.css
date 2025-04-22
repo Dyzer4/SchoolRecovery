@@ -6,6 +6,228 @@ body {
     border: 1px solid;
 }
 
+/* HEADER COMEÇO */
+header{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 1322px;
+    align-items: center;
+    background-color: var(--light-text-color);
+}
+
+
+.header-container{
+    display: flex;
+   gap: 266px;
+}
+
+.header-container nav{
+    display: flex;
+    align-items: center;        
+}
+
+
+.header-container ul{
+    display: flex;
+    gap: 21px;
+    list-style: none;
+}
+
+.header-container a{
+    color: var(--second-text-color);
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.header-content a{
+    color: var(--primary-color);
+}
+
+.header-content button{
+    display: flex;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    gap: 15px;
+    padding: 15px 25px;
+}
+/* HEADER FIM */
+
+/* MAIN COMEÇO */
+
+main{
+    background-color: var(--light-text-color);
+}
+.students-container{
+display: flex;
+gap: 35px;
+margin-top: 27px;
+}
+
+.students-container h1{
+    font-size: 58px;
+    width: 494px;
+}
+
+.students-container p{
+    font-size: 20px;
+    width: 470px;
+}
+
+.students-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    gap: 35px;
+}
+
+.btn-primary{
+    width: 195px;
+    height: 52px;
+    border-radius: 5px;
+}
+
+.btn-second{
+    width: 165px;
+    height: 52px;
+    border-radius: 5px;
+}
+.students-content img{
+    width: 640px;
+    height: 663px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-second{
+    border-color: green;
+    color: green;
+}
+/* MAIN FIM */
+
+.main-cards-1{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.barraLaranja{
+    margin-left: 24px;
+    background-color: chocolate;
+    width: 50px;
+    height: 2px;
+}
+.cards-1{ 
+    width: 320px;
+    height: 296px;
+    box-shadow: 2px 4px 24px rgba(171, 190, 209, 0.4);
+}
+
+.cards-1:hover{
+    box-shadow: 8px 12px 24px rgba(171, 190, 209, 0.2);
+    transform: translateY(-8px);
+}
+
+.cards-1 h2{
+    padding: 0 25px;
+    font-size: 24px;
+}
+.cards-1 p{
+    width: 200px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+
+.cards-1 img{
+    padding: 25px 30px;
+    width: 72px;
+    height: 72px;
+}
+
+
+/*------------------------------------------------------------------------*/
+
+.Happy-Positions{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Happy-Text{
+    width: 238px;
+    height: 104px;
+}
+
+
+.Happy-Text h3{
+    text-align: center;
+    width: 141px;
+    font-size: 58px;
+    color: #96BB7C;
+    margin-bottom: -10px;
+}
+.Happy-Text p{
+    font-size: 16px; 
+}
+ 
+
+
+/* EVERY CLIENT COMEÇO */
+.client-container{
+    display: flex;
+    gap: 114px;
+    justify-content: center;
+    }
+    
+    .client-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 35px;
+    }
+    
+    .client-content h2{
+        font-size: 40px;
+        width: 428px;
+        color: var(--text-color);
+    }
+    
+    .client-content p{
+        font-size: 14px;
+        width: 345px;
+        color: var(--second-text-color);
+    }
+    
+    .client-content a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    }
+    /* FIM EVERY COMEÇO */
+
+
 /* TEACHERS */
 
 .Teachers {
@@ -119,6 +341,209 @@ body {
     align-items: center;
     gap: 10px;
 }
+
+/* ----------------Section Review---------------- */
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 195px;
+    background-color: var(--light-background-color);
+}
+
+.review-informations{
+    display: flex;
+    flex-direction: column;
+    width: 1044px;
+    box-sizing: border-box;
+    gap:10px;
+}
+
+.review-informations h3{    
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.review-informations h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: var(--text-color);
+}
+
+.review-informations-text{
+    width: 463px;
+}
+
+.review-informations-text p{
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--second-text-color);
+}
+
+.cards{
+    display: flex;
+    width: 1045px;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+    align-items: center;
+    background-color: var(--light-background-color);
+}
+
+.cards-review{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    width: 298px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.cards-review p{
+    width: 159px;
+    font-size: 14px;
+    color: var(--second-text-color);
+    text-align: center;
+}
+
+.cards-person{
+    display: flex;
+    align-items: center;
+    gap: 15PX;
+}
+
+.cards-person-infos h3{
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.cards-person-infos p{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+}
+
+/* ----------------Section Team---------------- */
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 112px;
+    padding: 100px 195px;
+    background-color: var(--light-background-color);
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 195px;
+    background-color: var(--light-background-color);
+}
+
+.team-informations{
+    display: flex;
+    flex-direction: column;
+    width: 1044px;
+    box-sizing: border-box;
+    gap:10px;
+}
+
+.team-informations h3{    
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.team-informations h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--text-color);
+}
+
+.team-informations-text{
+    width: 463px;
+}
+
+.team-informations-text p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--second-text-color);
+}
+
+.team-cards{
+    display: flex;
+    gap: 30px;
+}
+
+.team-cards-infos{
+    width: 238px;
+    box-sizing: border-box;
+    border-radius: 20px; 
+    box-shadow: 0px 13px 19px rgba(0, 0, 0,0.07);
+}
+
+.team-cards-infos img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.team-cards-infos-personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.team-cards-infos-personal h3{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.team-cards-infos-personal p{
+    color: var(--second-text-color);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+}
+
+.team-cards-infos-personal-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.team-cards-infos-personal-icons img{
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.team-cards-infos-personal-icons img:hover{
+    transform: translateY(-4px);
+}
+
+/*------------------Responsive------------------*/
+
+
 
 /* NEWSLETTER */
 
@@ -264,4 +689,26 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+@media (max-width: 500px){
+/* ----------------Section Review---------------- */
+    .review{
+        padding: 30px;
+        width: 84%;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .review-informations{
+        width: 84%;
+        gap: 5px;
+    }
+    .review-informations h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .review-informations p{
+        font-size: 12px;
+    }
+/* ----------------Section Team---------------- */
 }
