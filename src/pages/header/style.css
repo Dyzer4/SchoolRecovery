@@ -1,0 +1,151 @@
+@import url(./global.css);
+
+/* HEADER COMEÇO */
+header{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 1322px;
+    align-items: center;
+    background-color: var(--light-text-color);
+}
+
+
+.header-container{
+    display: flex;
+   gap: 266px;
+}
+
+.header-container nav{
+    display: flex;
+    align-items: center;        
+}
+
+
+.header-container ul{
+    display: flex;
+    gap: 21px;
+    list-style: none;
+}
+
+.header-container a{
+    color: var(--second-text-color);
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.header-content a{
+    color: var(--primary-color);
+}
+
+.header-content button{
+    display: flex;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    gap: 15px;
+    padding: 15px 25px;
+}
+/* HEADER FIM */
+
+/* MAIN COMEÇO */
+
+main{
+    background-color: var(--light-text-color);
+}
+.students-container{
+display: flex;
+gap: 35px;
+margin-top: 27px;
+}
+
+.students-container h1{
+    font-size: 58px;
+    width: 494px;
+}
+
+.students-container p{
+    font-size: 20px;
+    width: 470px;
+}
+
+.students-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    gap: 35px;
+}
+
+.btn-primary{
+    width: 195px;
+    height: 52px;
+    border-radius: 5px;
+}
+
+.btn-second{
+    width: 165px;
+    height: 52px;
+    border-radius: 5px;
+}
+.students-content img{
+    width: 640px;
+    height: 663px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-second{
+    border-color: green;
+    color: green;
+}
+/* MAIN FIM */
+
+/* EVERY CLIENT COMEÇO */
+.client-container{
+display: flex;
+gap: 114px;
+justify-content: center;
+}
+
+.client-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.client-content h2{
+    font-size: 40px;
+    width: 428px;
+    color: var(--text-color);
+}
+
+.client-content p{
+    font-size: 14px;
+    width: 345px;
+    color: var(--second-text-color);
+}
+
+.client-content a{
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 14px;
+color: var(--primary-text-color);
+}
+/* FIM EVERY COMEÇOL */
