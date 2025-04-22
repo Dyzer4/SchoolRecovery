@@ -9,39 +9,36 @@ body {
 /* HEADER COMEÇO */
 header{
     display: flex;
-    margin-top: 20px;
-    justify-content: space-around;
-    width: 1322px;
+    padding: 20px 167px;
     align-items: center;
-    background-color: var(--light-text-color);
+    gap: 20%;
+    background-color: var(--light-gray-1);
 }
 
 
 .header-container{
     display: flex;
-   gap: 266px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center; 
 }
 
-.header-container nav{
+.header-container nav ul{
+    gap: 21px;   
     display: flex;
-    align-items: center;        
-}
-
-
-.header-container ul{
-    display: flex;
-    gap: 21px;
     list-style: none;
 }
 
 .header-container a{
+    font-weight: bold;
+    font-size: 14px;
     color: var(--second-text-color);
 }
 
 .header-content{
     display: flex;
     align-items: center;
-    gap: 45px;
+    gap:45px;
 
 }
 
@@ -64,35 +61,44 @@ header{
 /* MAIN COMEÇO */
 
 main{
-    background-color: var(--light-text-color);
+    background-color: var(--light-gray-1);
 }
 .students-container{
-display: flex;
-gap: 35px;
-margin-top: 27px;
+    padding: 54px 55px 54px 167px;
+    display: flex;
+    gap: 85px;
 }
 
-.students-container h1{
+.students-content h1{
     font-size: 58px;
+    font-weight: bold;
     width: 494px;
+    color: var(--text-color);
 }
 
 .students-container p{
     font-size: 20px;
     width: 470px;
+    color: var(--second-text-color);
 }
 
 .students-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 70px;
     gap: 35px;
 }
 
+.btn{
+    display: flex;
+    gap: 10px;
+}
 .btn-primary{
     width: 195px;
     height: 52px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
     border-radius: 5px;
 }
 
@@ -100,22 +106,6 @@ margin-top: 27px;
     width: 165px;
     height: 52px;
     border-radius: 5px;
-}
-.students-content img{
-    width: 640px;
-    height: 663px;
-}
-.btn{
-    display: flex;
-    gap: 10px;
-}
-.btn-primary{
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 5px;
-}
-
-.btn-second{
     border-color: green;
     color: green;
 }
@@ -126,17 +116,19 @@ margin-top: 27px;
     display: flex;
     justify-content: center;
     gap: 30px;
-    
 }
+
 .barraLaranja{
-    margin-left: 24px;
-    background-color: chocolate;
+    background-color: var(--danger-color);
     width: 50px;
     height: 2px;
 }
+
 .cards-1{ 
-    width: 320px;
-    height: 296px;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     box-shadow: 2px 4px 24px rgba(171, 190, 209, 0.4);
 }
 
@@ -146,18 +138,18 @@ margin-top: 27px;
 }
 
 .cards-1 h2{
-    padding: 0 25px;
     font-size: 24px;
-}
-.cards-1 p{
-    width: 200px;
-    padding: 0 25px;
-    font-size: 14px;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
+.cards-1 p{
+    width: 221px;
+    font-size: 14px;
+    color: var(--second-text-color);
+}
 
 .cards-1 img{
-    padding: 25px 30px;
     width: 72px;
     height: 72px;
 }
@@ -167,36 +159,37 @@ margin-top: 27px;
 
 .Happy-Positions{
     margin-top: 100px;
-    margin-left: 100px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .Happy-Text{
-    width: 238px;
     height: 104px;
+    width: 238px;
 }
 
 
 .Happy-Text h3{
     text-align: center;
-    width: 141px;
     font-size: 58px;
-    color: #96BB7C;
-    margin-bottom: -10px;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 .Happy-Text p{
     font-size: 16px; 
+    font-weight: bold;
+    text-align: center;
 }
  
 
 
 /* EVERY CLIENT COMEÇO */
 .client-container{
-    display: flex;
-    gap: 114px;
-    justify-content: center;
+        margin: 100px 0; 
+        display: flex;
+        gap: 114px;
+        justify-content: center;
     }
     
     .client-content{
@@ -219,11 +212,11 @@ margin-top: 27px;
     }
     
     .client-content a{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 14px;
-    color: var(--primary-text-color);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+        color: var(--primary-text-color);
     }
     /* FIM EVERY COMEÇO */
 
@@ -340,6 +333,44 @@ margin-top: 27px;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.btn-favorite {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: translate(85px, -90px) ;
+    
+}
+
+.btn-favorite button{
+    background-color: var(--light-background-color);
+    width: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-card-tag {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: var(--danger-color);
+    padding: 0 10px;
+    width: 52px;
+    text-align: center;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(-310px);
+}
+
+#sale{
+    color: var(--light-text-color);
 }
 
 /* ----------------Section Review---------------- */

@@ -7,6 +7,10 @@
     font-family: var(--font); 
 }
 
+button {
+    cursor: pointer;
+}
+
 :root{
     --font: "Montserrat", sans-serif;
 
