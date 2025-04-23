@@ -5,12 +5,14 @@
     gap: 30px;
     
 }
+
 .barraLaranja{
     margin-left: 24px;
     background-color: chocolate;
     width: 50px;
     height: 2px;
 }
+
 .cards-1{ 
     width: 320px;
     height: 296px;

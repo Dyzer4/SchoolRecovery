@@ -3,11 +3,10 @@
 body {
     width: 1440px;
     margin: 0 auto;
-    border: 1px solid;
 }
 
 /* HEADER COMEÇO */
-header{
+header {
     display: flex;
     padding: 20px 167px;
     align-items: center;
@@ -16,37 +15,37 @@ header{
 }
 
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: center; 
+    align-items: center;
 }
 
-.header-container nav ul{
-    gap: 21px;   
+.header-container nav ul {
+    gap: 21px;
     display: flex;
     list-style: none;
 }
 
-.header-container a{
+.header-container a {
     font-weight: bold;
     font-size: 14px;
     color: var(--second-text-color);
 }
 
-.header-content{
+.header-content {
     display: flex;
     align-items: center;
-    gap:45px;
+    gap: 45px;
 
 }
 
-.header-content a{
+.header-content a {
     color: var(--primary-color);
 }
 
-.header-content button{
+.header-content button {
     display: flex;
     text-transform: uppercase;
     background-color: var(--primary-color);
@@ -56,44 +55,58 @@ header{
     gap: 15px;
     padding: 15px 25px;
 }
+
+.menu-toggle{
+    display: none;
+}
+
+.menu-toggle span{
+    width: 30px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin: 3px 0;    
+}
+
 /* HEADER FIM */
 
 /* MAIN COMEÇO */
 
-main{
+main {
     background-color: var(--light-gray-1);
 }
-.students-container{
+
+.students-container {
     padding: 54px 55px 54px 167px;
     display: flex;
     gap: 85px;
 }
 
-.students-content h1{
+.students-content h1 {
     font-size: 58px;
     font-weight: bold;
     width: 494px;
     color: var(--text-color);
 }
 
-.students-container p{
+.students-container p {
     font-size: 20px;
     width: 470px;
     color: var(--second-text-color);
 }
 
-.students-content{
+.students-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 35px;
 }
 
-.btn{
+.btn {
     display: flex;
     gap: 10px;
 }
-.btn-primary{
+
+.btn-primary {
     width: 195px;
     height: 52px;
     border-radius: 5px;
@@ -102,29 +115,30 @@ main{
     border-radius: 5px;
 }
 
-.btn-second{
+.btn-second {
     width: 165px;
     height: 52px;
     border-radius: 5px;
     border-color: green;
     color: green;
 }
+
 /* MAIN FIM */
 
-.main-cards-1{
+.main-cards-1 {
     padding: 50px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.barraLaranja{
+.barraLaranja {
     background-color: var(--danger-color);
     width: 50px;
     height: 2px;
 }
 
-.cards-1{ 
+.cards-1 {
     padding: 35px 40px;
     display: flex;
     flex-direction: column;
@@ -132,24 +146,24 @@ main{
     box-shadow: 2px 4px 24px rgba(171, 190, 209, 0.4);
 }
 
-.cards-1:hover{
+.cards-1:hover {
     box-shadow: 8px 12px 24px rgba(171, 190, 209, 0.2);
     transform: translateY(-8px);
 }
 
-.cards-1 h2{
+.cards-1 h2 {
     font-size: 24px;
     font-weight: bold;
     color: var(--text-color);
 }
 
-.cards-1 p{
+.cards-1 p {
     width: 221px;
     font-size: 14px;
     color: var(--second-text-color);
 }
 
-.cards-1 img{
+.cards-1 img {
     width: 72px;
     height: 72px;
 }
@@ -157,68 +171,70 @@ main{
 
 /*------------------------------------------------------------------------*/
 
-.Happy-Positions{
+.Happy-Positions {
     margin-top: 100px;
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.Happy-Text{
+.Happy-Text {
     height: 104px;
     width: 238px;
 }
 
 
-.Happy-Text h3{
+.Happy-Text h3 {
     text-align: center;
     font-size: 58px;
     color: var(--primary-color);
     font-weight: bold;
 }
-.Happy-Text p{
-    font-size: 16px; 
+
+.Happy-Text p {
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
- 
+
 
 
 /* EVERY CLIENT COMEÇO */
-.client-container{
-        margin: 100px 0; 
-        display: flex;
-        gap: 114px;
-        justify-content: center;
-    }
-    
-    .client-content{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 35px;
-    }
-    
-    .client-content h2{
-        font-size: 40px;
-        width: 428px;
-        color: var(--text-color);
-    }
-    
-    .client-content p{
-        font-size: 14px;
-        width: 345px;
-        color: var(--second-text-color);
-    }
-    
-    .client-content a{
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-size: 14px;
-        color: var(--primary-text-color);
-    }
-    /* FIM EVERY COMEÇO */
+.client-container {
+    margin: 100px 0;
+    display: flex;
+    gap: 114px;
+    justify-content: center;
+}
+
+.client-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.client-content h2 {
+    font-size: 40px;
+    width: 428px;
+    color: var(--text-color);
+}
+
+.client-content p {
+    font-size: 14px;
+    width: 345px;
+    color: var(--second-text-color);
+}
+
+.client-content a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--primary-text-color);
+}
+
+/* FIM EVERY COMEÇO */
 
 
 /* TEACHERS */
@@ -288,7 +304,7 @@ main{
 
 .teacher-p-card p:nth-of-type(2) {
     color: var(--light-text-color);
-    background-color: var(--dark-background-color) ;
+    background-color: var(--dark-background-color);
     padding: 5px;
     border-radius: 20px;
     display: flex;
@@ -318,7 +334,7 @@ main{
     font-weight: bold;
 }
 
-.teacher-card-content span:first-of-type{
+.teacher-card-content span:first-of-type {
     color: var(--muted-color);
     margin-right: 5px;
 }
@@ -340,11 +356,11 @@ main{
     display: flex;
     justify-content: space-between;
     position: absolute;
-    transform: translate(85px, -90px) ;
-    
+    transform: translate(85px, -90px);
+
 }
 
-.btn-favorite button{
+.btn-favorite button {
     background-color: var(--light-background-color);
     width: 40px;
     border: none;
@@ -369,12 +385,12 @@ main{
     transform: translateY(-310px);
 }
 
-#sale{
+#sale {
     color: var(--light-text-color);
 }
 
 /* ----------------Section Review---------------- */
-.review{
+.review {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -383,21 +399,21 @@ main{
     background-color: var(--light-background-color);
 }
 
-.review-informations{
+.review-informations {
     display: flex;
     flex-direction: column;
     width: 1044px;
     box-sizing: border-box;
-    gap:10px;
+    gap: 10px;
 }
 
-.review-informations h3{    
+.review-informations h3 {
     font-weight: bold;
     font-size: 14px;
     color: var(--primary-color);
 }
 
-.review-informations h2{
+.review-informations h2 {
     font-size: 40px;
     font-weight: bold;
     line-height: 50px;
@@ -405,24 +421,24 @@ main{
     color: var(--text-color);
 }
 
-.review-informations-text{
+.review-informations-text {
     width: 463px;
 }
 
-.review-informations-text p{
+.review-informations-text p {
     font-size: 14px;
     line-height: 20px;
     color: var(--second-text-color);
 }
 
-.cards{
+.cards {
     display: flex;
     width: 1045px;
     gap: 30px;
     box-sizing: border-box;
 }
 
-.card-info{
+.card-info {
     display: flex;
     flex-direction: column;
     padding: 25px 15px;
@@ -430,7 +446,7 @@ main{
     background-color: var(--light-background-color);
 }
 
-.cards-review{
+.cards-review {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -440,26 +456,26 @@ main{
     align-items: center;
 }
 
-.cards-review p{
+.cards-review p {
     width: 159px;
     font-size: 14px;
     color: var(--second-text-color);
     text-align: center;
 }
 
-.cards-person{
+.cards-person {
     display: flex;
     align-items: center;
     gap: 15PX;
 }
 
-.cards-person-infos h3{
+.cards-person-infos h3 {
     font-weight: bold;
     font-size: 14px;
     color: var(--primary-color);
 }
 
-.cards-person-infos p{
+.cards-person-infos p {
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.2px;
@@ -467,7 +483,7 @@ main{
 }
 
 /* ----------------Section Team---------------- */
-.team{
+.team {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,7 +492,7 @@ main{
     background-color: var(--light-background-color);
 }
 
-.review{
+.review {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -485,21 +501,21 @@ main{
     background-color: var(--light-background-color);
 }
 
-.team-informations{
+.team-informations {
     display: flex;
     flex-direction: column;
     width: 1044px;
     box-sizing: border-box;
-    gap:10px;
+    gap: 10px;
 }
 
-.team-informations h3{    
+.team-informations h3 {
     font-weight: bold;
     font-size: 14px;
     color: var(--primary-color);
 }
 
-.team-informations h2{
+.team-informations h2 {
     font-size: 24px;
     font-weight: bold;
     line-height: 32px;
@@ -507,35 +523,35 @@ main{
     color: var(--text-color);
 }
 
-.team-informations-text{
+.team-informations-text {
     width: 463px;
 }
 
-.team-informations-text p{
+.team-informations-text p {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
     color: var(--second-text-color);
 }
 
-.team-cards{
+.team-cards {
     display: flex;
     gap: 30px;
 }
 
-.team-cards-infos{
+.team-cards-infos {
     width: 238px;
     box-sizing: border-box;
-    border-radius: 20px; 
-    box-shadow: 0px 13px 19px rgba(0, 0, 0,0.07);
+    border-radius: 20px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 
-.team-cards-infos img{
+.team-cards-infos img {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
 }
 
-.team-cards-infos-personal{
+.team-cards-infos-personal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -543,7 +559,7 @@ main{
     gap: 10px;
 }
 
-.team-cards-infos-personal h3{
+.team-cards-infos-personal h3 {
     color: var(--text-color);
     font-size: 16px;
     font-weight: bold;
@@ -551,24 +567,24 @@ main{
     letter-spacing: 0.1px;
 }
 
-.team-cards-infos-personal p{
+.team-cards-infos-personal p {
     color: var(--second-text-color);
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.2px;
 }
 
-.team-cards-infos-personal-icons{
+.team-cards-infos-personal-icons {
     display: flex;
     gap: 20px;
 }
 
-.team-cards-infos-personal-icons img{
+.team-cards-infos-personal-icons img {
     transition: 0.4s;
     cursor: pointer;
 }
 
-.team-cards-infos-personal-icons img:hover{
+.team-cards-infos-personal-icons img:hover {
     transform: translateY(-4px);
 }
 
@@ -623,6 +639,8 @@ main{
     width: 571px;
     padding: 15px 20px;
     background-color: #f9f9f9;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #e5e5e5;
 }
 
 .newsletter-input input::placeholder {
@@ -675,7 +693,7 @@ footer nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+
 }
 
 .footer-nav-itens:nth-of-type(5) ul {
@@ -722,24 +740,239 @@ footer a {
     gap: 20px;
 }
 
-@media (max-width: 500px){
-/* ----------------Section Review---------------- */
-    .review{
+@media (max-width: 500px) {
+
+    body {
+        width: 500px;
+    }
+
+    /* ----------------HEADER----------------------- */
+    header {
+        padding: 20px 40px;
+    }
+
+    .header-container, .header-content{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ----------------HEADER----------------------- */
+
+    /* ----------------MAIN-------------------------- */
+    .students-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 35px;
+    }
+
+    .students-container img {
+        width: 380px;
+    }
+
+    .students-container h1 {
+        font-size: 50px;
+        width: 380px;
+        text-align: center;
+    }
+
+    .students-container p {
+        width: 380px;
+        text-align: center;
+    }
+
+    .btn {
+        gap: 25px;
+    }
+
+    /* ----------------MAIN-------------------------- */
+
+    /* ----------------Section Expert---------------- */
+    .main-cards-1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 425px;
+        margin-top: 20px;
+    }
+
+    .Happy-Positions {
+        flex-direction: column;
+        align-items: center;
+        width: 425px;
+    }
+
+    /* ----------------Section Expert---------------- */
+
+    /* ----------------EVERY CLIENT----------------- */
+    .client-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 35px;
+        width: 425px;
+    }
+
+    .client-container img {
+        width: 380px;
+    }
+
+    .client-content {
+        width: 425px;
+    }
+
+    .client-content h2 {
+        font-size: 40px;
+        width: 380px;
+        text-align: center;
+    }
+
+    .client-content p {
+        width: 380px;
+        text-align: center;
+    }
+
+    .client-content a {
+        gap: 10px;
+        align-self: center;
+        transform: translateX(-20%);
+    }
+
+    .client-content a img {
+        width: 5px;
+    }
+
+    /* ----------------EVERY CLIENT----------------- */
+
+    /* ----------------Section teachers------------- */
+    .Teachers {
+        padding: 40px 20px;
+    }
+
+    .teachers-titles {
+        width: 90%;
+    }
+
+    .teacher-cards {
+        flex-direction: column;
+        width: 90%;
+        transform: translateX(25px);
+    }
+
+    .teacher-card-container {
+        width: 340px;
+    }
+
+    /* ----------------Section teachers------------- */
+
+
+
+    /* ----------------Section Review---------------- */
+    .review {
         padding: 30px;
         width: 84%;
         align-items: flex-start;
         gap: 5px;
     }
-    .review-informations{
+
+    .review-informations {
         width: 84%;
         gap: 5px;
     }
-    .review-informations h2{
+
+    .review-informations h2 {
         font-size: 24px;
         line-height: 30px;
     }
-    .review-informations p{
+
+    .review-informations p {
         font-size: 12px;
     }
-/* ----------------Section Team---------------- */
+
+    /* ----------------Section Team---------------- */
+    .team{
+        padding: 30px;
+        width: 84%;
+        align-items: flex-start;
+        gap: 60px;
+        
+    }
+    .team-informations{
+        width: 84%;
+        gap: 5px;
+    }
+    .team-informations h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .team-informations p{
+        width: 80%;
+        font-size: 12px;
+    }
+    .team-cards{
+        flex-direction: column; 
+        align-items: center;
+        width: 88%;
+    }
+
+    .team-cards-infos{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* ----------------Section Team---------------- */
+
+    /* ----------------Section newsletter----------- */
+    .newsletter {
+        margin-top: 20px;
+        width: 425px;
+        padding: 0;
+    }
+    
+    .newsletter-titles {
+        width: 90%;
+    }
+
+    .newsletter-titles p {
+        width: 90%;
+    }
+
+    .newsletter-input {
+        width: 90%;
+    }
+
+    /* ----------------Section newsletter----------- */
+
+    /* ----------------FOOTER----------------------- */
+    footer {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    footer nav {
+        width: 90%;
+        flex-direction: column;
+        transform: translateX(5%);
+        
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .copyright-content {
+        width: 70%;
+        flex-direction: column-reverse;
+        gap: 30px;
+        text-align: center;
+        position: relative;
+        left: -7%;
+    }
+
+    /* ----------------FOOTER----------------------- */
+
+    
+
 }
