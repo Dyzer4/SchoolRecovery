@@ -192,8 +192,45 @@
 
 /*------------------Responsive------------------*/
 
+@media (max-width: 835px){
+    /* ----------------Section Review---------------- */
+    .review{
+        padding: 50px;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .cards{
+        width: 95%;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        gap: 0;
+    }
+    .cards-review{
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ----------------Section Team---------------- */
+    .team{
+        padding: 50px;
+        align-items: flex-start;
+        gap: 60px;
+    }
+    .team-cards{
+        width: 95%;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    .team-cards-infos-personal{
+        padding: 20px;
+    }
+    .team-cards-infos-personal h3{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
 @media (max-width: 500px){
-/* ----------------Section Review---------------- */
+    /* ----------------Section Review---------------- */
     .review{
         padding: 30px;
         width: 84%;
@@ -212,12 +249,12 @@
         width: 80%;
         font-size: 12px;
     }
-/* ----------------Section Team---------------- */
+    /* ----------------Section Team---------------- */
     .team{
         padding: 30px;
         width: 84%;
         align-items: flex-start;
-        gap: 70px;
+        gap: 60px;
         
     }
     .team-informations{
@@ -235,6 +272,7 @@
     .team-cards{
         flex-direction: column; 
         margin: auto;
+        width: 75%;
     }
     .team-cards-infos{
         width: 90%;
