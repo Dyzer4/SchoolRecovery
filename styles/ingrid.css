@@ -103,15 +103,6 @@
     background-color: var(--light-background-color);
 }
 
-.review{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    padding: 100px 195px;
-    background-color: var(--light-background-color);
-}
-
 .team-informations{
     display: flex;
     flex-direction: column;
@@ -218,7 +209,35 @@
         line-height: 30px;
     }
     .review-informations p{
+        width: 80%;
         font-size: 12px;
     }
 /* ----------------Section Team---------------- */
+    .team{
+        padding: 30px;
+        width: 84%;
+        align-items: flex-start;
+        gap: 70px;
+        
+    }
+    .team-informations{
+        width: 84%;
+        gap: 5px;
+    }
+    .team-informations h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .team-informations p{
+        width: 80%;
+        font-size: 12px;
+    }
+    .team-cards{
+        flex-direction: column; 
+        margin: auto;
+    }
+    .team-cards-infos{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
