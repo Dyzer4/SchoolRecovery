@@ -276,6 +276,7 @@ main {
 }
 
 .teacher-card-container {
+    width: 348px;
     background-color: var(--light-background-color);
 }
 
@@ -973,6 +974,108 @@ footer a {
 
     /* ----------------FOOTER----------------------- */
 
-    
+}
 
+@media (max-width: 850px) {
+    body{
+        width: 100%;
+    }
+
+    /* teachers */
+    .Teachers{
+        padding: 5%;
+        width: 100%;
+    }
+
+    .teachers-titles {
+        width: 90%;
+    }
+
+
+    .teacher-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .teacher-card-container {
+        width: 70%;
+    }
+
+    .img-teacher-cards {
+        width: 100%;
+    }
+
+    .p-card-tag {
+        transform: translateY(-500px);
+    }
+
+    .btn-favorite {
+        transform: translate(200px, -90px);
+    }
+    /* teachers */
+
+    /* ----------------Section Review---------------- */
+    .review{
+        padding: 40px;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .cards{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .cards-review{
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ----------------Section Review---------------- */
+
+    /* ----------------Section Team---------------- */
+    .team{
+        padding: 40px;
+        align-items: flex-start;
+        gap: 60px;
+    }
+    .team-cards{
+        width: 100%;
+
+    }
+    .team-cards-infos-personal{
+        padding: 20px;
+    }
+    .team-cards-infos-personal h3{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* ----------------Section Team---------------- */
+
+    /* ----------------Section Newsletter---------- */
+    .newsletter {
+        width: 90%;
+        padding: 40px;
+    }
+    /* ----------------Section Newsletter---------- */
+
+    /* ----------------footer---------------------- */
+    footer {
+        width: 100%;
+    }
+
+    footer nav {
+        width: 90%;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+    .copyright-content {
+        justify-content: space-evenly;
+    }
+    /* ----------------footer---------------------- */
+
+    
 }
