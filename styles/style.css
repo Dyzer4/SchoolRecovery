@@ -744,12 +744,14 @@ footer a {
 @media (max-width: 500px) {
 
     body {
-        width: 500px;
+        width: 100vh;
     }
 
     /* ----------------HEADER----------------------- */
     header {
-        padding: 20px 40px;
+        width: 100%;
+        padding: 20px;
+        gap: 200px;
     }
 
     .header-container, .header-content{
@@ -976,15 +978,67 @@ footer a {
 
 }
 
-@media (max-width: 850px) {
+@media (max-width: 850px) and (min-width: 451px) {
     body{
-        width: 100%;
+        width: 100vh;
+    }
+
+    /* header */
+  header{
+    padding: 20px 20px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .students-container{
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 50px 0;
+  }
+ /* header */
+
+ /* main */
+
+ .students-container img{
+    width: 440px;
+
+ }
+
+ .students-content{
+    
+ }
+ 
+ .students-content h2{
+    text-align: center;
+
+ }
+ .students-content p{
+    text-align: center;
+ }
+ .btn{
+    
+ }
+
+  /* every clients */
+
+    .client-container{
+    gap: 2px;
+    }
+
+    .client-content h2{
+    width: 300px;
+    }
+
+    .client-content p {
+        width: 350px;  
     }
 
     /* teachers */
     .Teachers{
-        padding: 5%;
-        width: 100%;
+        width: 65%;
     }
 
     .teachers-titles {
@@ -1007,11 +1061,11 @@ footer a {
     }
 
     .p-card-tag {
-        transform: translateY(-500px);
+        transform: translateY(-440px);
     }
 
     .btn-favorite {
-        transform: translate(200px, -90px);
+        transform: translate(160px, -90px);
     }
     /* teachers */
 
@@ -1023,7 +1077,7 @@ footer a {
     }
     .cards{
         width: 100%;
-        gap: 10px;
+        justify-content: space-between;
     }
 
     .cards-review{
